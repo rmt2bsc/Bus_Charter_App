@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="VwOrderAgreementView">
+   <Sql From="vw_order_agreement" GroupBy="" Having="" OrderBy="" Select="company_id, &#xA;&#x9;&#x9;contact_company, &#xA;&#x9;&#x9;contact_fname, &#xA;&#x9;&#x9;contact_lname, &#xA;&#x9;&#x9;pickup_location, &#xA;&#x9;&#x9;signage, &#xA;&#x9;&#x9;bus_count, &#xA;&#x9;&#x9;return_date, &#xA;&#x9;&#x9;depart_date, &#xA;&#x9;&#x9;depart_spottime, &#xA;&#x9;&#x9;head_count, &#xA;&#x9;&#x9;destination, &#xA;&#x9;&#x9;id, &#xA;&#x9;&#x9;required_deposit, &#xA;&#x9;&#x9;charter_owner_company, &#xA;&#x9;&#x9;contact_compnay, &#xA;&#x9;&#x9;order_total" Where="" />
+   <TableUsage DBName="vw_order_agreement" Name="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="company_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="CompanyId" PrimaryKey="false" SqlType="integer" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_company" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="ContactCompany" PrimaryKey="false" SqlType="integer" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_fname" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ContactFname" PrimaryKey="false" SqlType="varchar" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_lname" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ContactLname" PrimaryKey="false" SqlType="varchar" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="pickup_location" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="PickupLocation" PrimaryKey="false" SqlType="varchar" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="signage" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Signage" PrimaryKey="false" SqlType="varchar" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="bus_count" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="BusCount" PrimaryKey="false" SqlType="integer" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="return_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="ReturnDate" PrimaryKey="false" SqlType="date" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="depart_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DepartDate" PrimaryKey="false" SqlType="date" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="depart_spottime" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DepartSpottime" PrimaryKey="false" SqlType="time" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="head_count" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="HeadCount" PrimaryKey="false" SqlType="integer" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="destination" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Destination" PrimaryKey="false" SqlType="varchar" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Id" PrimaryKey="false" SqlType="integer" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="required_deposit" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="RequiredDeposit" PrimaryKey="false" SqlType="numeric" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="charter_owner_company" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="CharterOwnerCompany" PrimaryKey="false" SqlType="varchar" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_compnay" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ContactCompnay" PrimaryKey="false" SqlType="varchar" TableName="VwOrderAgreementTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="order_total" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="OrderTotal" PrimaryKey="false" SqlType="numeric" TableName="VwOrderAgreementTable" Updateable="true" />
+</DataSource>
+

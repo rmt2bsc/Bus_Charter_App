@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="BusinessView">
+   <Sql From="business" GroupBy="" Having="" OrderBy="" Select="id, &#xA;&#x9;&#x9;business_type, &#xA;&#x9;&#x9;service_type, &#xA;&#x9;&#x9;longname, &#xA;&#x9;&#x9;shortname, &#xA;&#x9;&#x9;photoid, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;change_reason, &#xA;&#x9;&#x9;active_ind, &#xA;&#x9;&#x9;areacode_created, &#xA;&#x9;&#x9;city_created, &#xA;&#x9;&#x9;user_id, &#xA;&#x9;&#x9;status, &#xA;&#x9;&#x9;termination_date, &#xA;&#x9;&#x9;suspension_date, &#xA;&#x9;&#x9;suspension_removed_date, &#xA;&#x9;&#x9;active_date, &#xA;&#x9;&#x9;addr_line_1, &#xA;&#x9;&#x9;addr_line_3, &#xA;&#x9;&#x9;addr_line_2, &#xA;&#x9;&#x9;zip_id" Where="" />
+   <TableUsage DBName="business" Name="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Id" PrimaryKey="true" SqlType="integer" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="business_type" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="BusinessType" PrimaryKey="false" SqlType="integer" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="service_type" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="ServiceType" PrimaryKey="false" SqlType="integer" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="longname" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Longname" PrimaryKey="false" SqlType="varchar" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="shortname" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Shortname" PrimaryKey="false" SqlType="varchar" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="photoid" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="Photoid" PrimaryKey="false" SqlType="integer" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="change_reason" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ChangeReason" PrimaryKey="false" SqlType="varchar" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="active_ind" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="ActiveInd" PrimaryKey="false" SqlType="char" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="areacode_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="AreacodeCreated" PrimaryKey="false" SqlType="char" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="city_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="CityCreated" PrimaryKey="false" SqlType="integer" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="UserId" PrimaryKey="false" SqlType="char" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="status" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="Status" PrimaryKey="false" SqlType="integer" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="termination_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="TerminationDate" PrimaryKey="false" SqlType="date" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="suspension_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="SuspensionDate" PrimaryKey="false" SqlType="date" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="suspension_removed_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="SuspensionRemovedDate" PrimaryKey="false" SqlType="date" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="active_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="ActiveDate" PrimaryKey="false" SqlType="date" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="addr_line_1" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="AddrLine1" PrimaryKey="false" SqlType="varchar" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="addr_line_3" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="AddrLine3" PrimaryKey="false" SqlType="varchar" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="addr_line_2" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="AddrLine2" PrimaryKey="false" SqlType="varchar" TableName="BusinessTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="zip_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="ZipId" PrimaryKey="false" SqlType="integer" TableName="BusinessTable" Updateable="true" />
+</DataSource>
+

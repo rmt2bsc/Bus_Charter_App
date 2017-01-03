@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="CompanyInfoView">
+   <Sql From="company_info" GroupBy="" Having="" OrderBy="" Select="id, &#xA;&#x9;&#x9;name, &#xA;&#x9;&#x9;addr1, &#xA;&#x9;&#x9;addr2, &#xA;&#x9;&#x9;city, &#xA;&#x9;&#x9;state, &#xA;&#x9;&#x9;zip, &#xA;&#x9;&#x9;phone, &#xA;&#x9;&#x9;fax, &#xA;&#x9;&#x9;cell, &#xA;&#x9;&#x9;email, &#xA;&#x9;&#x9;website, &#xA;&#x9;&#x9;owner_name, &#xA;&#x9;&#x9;active" Where="" />
+   <TableUsage DBName="company_info" Name="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="char" Name="Id" PrimaryKey="true" SqlType="char" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="name" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Name" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="addr1" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Addr1" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="addr2" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Addr2" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="city" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="City" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="state" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="State" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="zip" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Zip" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="phone" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Phone" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="fax" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Fax" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="cell" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Cell" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="email" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Email" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="website" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Website" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="owner_name" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="OwnerName" PrimaryKey="false" SqlType="varchar" TableName="CompanyInfoTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="active" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="Active" PrimaryKey="false" SqlType="smallint" TableName="CompanyInfoTable" Updateable="true" />
+</DataSource>
+

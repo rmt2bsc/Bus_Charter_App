@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="QuoteView">
+   <Sql From="quote" GroupBy="" Having="" OrderBy="" Select="id, &#xA;&#x9;&#x9;company_id, &#xA;&#x9;&#x9;client_id, &#xA;&#x9;&#x9;charter_party, &#xA;&#x9;&#x9;signage, &#xA;&#x9;&#x9;bus_count, &#xA;&#x9;&#x9;head_count, &#xA;&#x9;&#x9;quote_price, &#xA;&#x9;&#x9;depart_date, &#xA;&#x9;&#x9;depart_spottime, &#xA;&#x9;&#x9;depart_droptime, &#xA;&#x9;&#x9;return_date, &#xA;&#x9;&#x9;return_spottime, &#xA;&#x9;&#x9;return_droptime, &#xA;&#x9;&#x9;garage_date, &#xA;&#x9;&#x9;garage_time, &#xA;&#x9;&#x9;pickup_location, &#xA;&#x9;&#x9;destination, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;user_id, &#xA;&#x9;&#x9;status, &#xA;&#x9;&#x9;instructions" Where="" />
+   <TableUsage DBName="quote" Name="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Id" PrimaryKey="true" SqlType="integer" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="company_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="CompanyId" PrimaryKey="false" SqlType="integer" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="client_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="ClientId" PrimaryKey="false" SqlType="integer" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="charter_party" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="CharterParty" PrimaryKey="false" SqlType="varchar" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="signage" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Signage" PrimaryKey="false" SqlType="varchar" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="bus_count" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="BusCount" PrimaryKey="false" SqlType="integer" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="head_count" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="HeadCount" PrimaryKey="false" SqlType="integer" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="quote_price" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="QuotePrice" PrimaryKey="false" SqlType="numeric" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="depart_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DepartDate" PrimaryKey="false" SqlType="date" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="depart_spottime" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DepartSpottime" PrimaryKey="false" SqlType="time" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="depart_droptime" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DepartDroptime" PrimaryKey="false" SqlType="time" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="return_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="ReturnDate" PrimaryKey="false" SqlType="date" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="return_spottime" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="ReturnSpottime" PrimaryKey="false" SqlType="time" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="return_droptime" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="ReturnDroptime" PrimaryKey="false" SqlType="time" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="garage_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="GarageDate" PrimaryKey="false" SqlType="date" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="garage_time" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="GarageTime" PrimaryKey="false" SqlType="time" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="pickup_location" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="PickupLocation" PrimaryKey="false" SqlType="varchar" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="destination" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Destination" PrimaryKey="false" SqlType="varchar" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="UserId" PrimaryKey="false" SqlType="varchar" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="status" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Status" PrimaryKey="false" SqlType="integer" TableName="QuoteTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="instructions" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Instructions" PrimaryKey="false" SqlType="varchar" TableName="QuoteTable" Updateable="true" />
+</DataSource>
+

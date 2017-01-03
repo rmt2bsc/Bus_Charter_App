@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="BusDetailView">
+   <Sql From="bus_detail" GroupBy="" Having="" OrderBy="" Select="id, &#xA;&#x9;&#x9;orders_id, &#xA;&#x9;&#x9;flat_rate, &#xA;&#x9;&#x9;milage_rate, &#xA;&#x9;&#x9;deadhead_milage_rate, &#xA;&#x9;&#x9;live_miles, &#xA;&#x9;&#x9;deadhead_miles, &#xA;&#x9;&#x9;hourly_rate, &#xA;&#x9;&#x9;hourly_rate2, &#xA;&#x9;&#x9;total_hours, &#xA;&#x9;&#x9;bus_number, &#xA;&#x9;&#x9;driver_name, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;user_id, &#xA;&#x9;&#x9;min_hour_factor, &#xA;&#x9;&#x9;instructions" Where="" />
+   <TableUsage DBName="bus_detail" Name="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Id" PrimaryKey="true" SqlType="integer" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="orders_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="OrdersId" PrimaryKey="false" SqlType="integer" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="flat_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="FlatRate" PrimaryKey="false" SqlType="numeric" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="milage_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="MilageRate" PrimaryKey="false" SqlType="numeric" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="deadhead_milage_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="DeadheadMilageRate" PrimaryKey="false" SqlType="numeric" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="live_miles" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="LiveMiles" PrimaryKey="false" SqlType="integer" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="deadhead_miles" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="DeadheadMiles" PrimaryKey="false" SqlType="integer" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="hourly_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="HourlyRate" PrimaryKey="false" SqlType="numeric" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="hourly_rate2" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="HourlyRate2" PrimaryKey="false" SqlType="numeric" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="total_hours" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="TotalHours" PrimaryKey="false" SqlType="integer" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="bus_number" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="BusNumber" PrimaryKey="false" SqlType="integer" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="driver_name" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="DriverName" PrimaryKey="false" SqlType="varchar" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="UserId" PrimaryKey="false" SqlType="varchar" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="min_hour_factor" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="MinHourFactor" PrimaryKey="false" SqlType="numeric" TableName="BusDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="instructions" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Instructions" PrimaryKey="false" SqlType="varchar" TableName="BusDetailTable" Updateable="true" />
+</DataSource>
+

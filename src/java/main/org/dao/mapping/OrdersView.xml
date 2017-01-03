@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="OrdersView">
+   <Sql From="orders" GroupBy="" Having="" OrderBy="" Select="id, &#xA;&#x9;&#x9;client_order_id, &#xA;&#x9;&#x9;quote_id, &#xA;&#x9;&#x9;flat_rate, &#xA;&#x9;&#x9;milage_rate, &#xA;&#x9;&#x9;deadhead_milage_rate, &#xA;&#x9;&#x9;live_miles, &#xA;&#x9;&#x9;deadhead_miles, &#xA;&#x9;&#x9;hourly_rate, &#xA;&#x9;&#x9;hourly_rate2, &#xA;&#x9;&#x9;total_hours, &#xA;&#x9;&#x9;buscost, &#xA;&#x9;&#x9;dropoff_collect, &#xA;&#x9;&#x9;dropoff_collect_tender, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;user_id, &#xA;&#x9;&#x9;required_deposit, &#xA;&#x9;&#x9;min_hour_factor" Where="" />
+   <TableUsage DBName="orders" Name="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Id" PrimaryKey="true" SqlType="integer" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="client_order_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ClientOrderId" PrimaryKey="false" SqlType="varchar" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="quote_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="QuoteId" PrimaryKey="false" SqlType="integer" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="flat_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="FlatRate" PrimaryKey="false" SqlType="numeric" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="milage_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="MilageRate" PrimaryKey="false" SqlType="numeric" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="deadhead_milage_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="DeadheadMilageRate" PrimaryKey="false" SqlType="numeric" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="live_miles" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="LiveMiles" PrimaryKey="false" SqlType="integer" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="deadhead_miles" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="DeadheadMiles" PrimaryKey="false" SqlType="integer" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="hourly_rate" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="HourlyRate" PrimaryKey="false" SqlType="numeric" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="hourly_rate2" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="HourlyRate2" PrimaryKey="false" SqlType="numeric" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="total_hours" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="TotalHours" PrimaryKey="false" SqlType="integer" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="buscost" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="Buscost" PrimaryKey="false" SqlType="numeric" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="dropoff_collect" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="DropoffCollect" PrimaryKey="false" SqlType="varchar" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="dropoff_collect_tender" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="DropoffCollectTender" PrimaryKey="false" SqlType="integer" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="UserId" PrimaryKey="false" SqlType="varchar" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="required_deposit" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="RequiredDeposit" PrimaryKey="false" SqlType="numeric" TableName="OrdersTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="min_hour_factor" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="MinHourFactor" PrimaryKey="false" SqlType="integer" TableName="OrdersTable" Updateable="true" />
+</DataSource>
+

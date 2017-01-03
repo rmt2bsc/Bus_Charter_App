@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="UserLocationView">
+   <Sql From="user_location" GroupBy="" Having="" OrderBy="" Select="id, &#xA;&#x9;&#x9;login_id, &#xA;&#x9;&#x9;user_name, &#xA;&#x9;&#x9;firstname, &#xA;&#x9;&#x9;lastname, &#xA;&#x9;&#x9;title, &#xA;&#x9;&#x9;start_date, &#xA;&#x9;&#x9;termination_date, &#xA;&#x9;&#x9;access_level, &#xA;&#x9;&#x9;password, &#xA;&#x9;&#x9;total_logons, &#xA;&#x9;&#x9;logon_city, &#xA;&#x9;&#x9;logon_areacode, &#xA;&#x9;&#x9;logon_phone_prefix, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;user_id" Where="" />
+   <TableUsage DBName="user_location" Name="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Id" PrimaryKey="true" SqlType="integer" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="login_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="LoginId" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_name" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="UserName" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="firstname" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="Firstname" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="lastname" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="Lastname" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="title" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="Title" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="start_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="StartDate" PrimaryKey="false" SqlType="date" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="termination_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="TerminationDate" PrimaryKey="false" SqlType="date" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="access_level" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="AccessLevel" PrimaryKey="false" SqlType="integer" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="password" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="Password" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="total_logons" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="TotalLogons" PrimaryKey="false" SqlType="integer" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="logon_city" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="LogonCity" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="logon_areacode" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="LogonAreacode" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="logon_phone_prefix" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="LogonPhonePrefix" PrimaryKey="false" SqlType="char" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="UserLocationTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="UserId" PrimaryKey="false" SqlType="varchar" TableName="UserLocationTable" Updateable="true" />
+</DataSource>
+

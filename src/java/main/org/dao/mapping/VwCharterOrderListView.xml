@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="VwCharterOrderListView">
+   <Sql From="vw_charter_order_list" GroupBy="" Having="" OrderBy="" Select="client_id, &#xA;&#x9;&#x9;contact_fname, &#xA;&#x9;&#x9;contact_lname, &#xA;&#x9;&#x9;contact_company, &#xA;&#x9;&#x9;contact_company_name, &#xA;&#x9;&#x9;quote_id, &#xA;&#x9;&#x9;transport_company_id, &#xA;&#x9;&#x9;transport_company, &#xA;&#x9;&#x9;signage, &#xA;&#x9;&#x9;charter_party, &#xA;&#x9;&#x9;depart_date, &#xA;&#x9;&#x9;return_date, &#xA;&#x9;&#x9;order_id, &#xA;&#x9;&#x9;status_id, &#xA;&#x9;&#x9;status, &#xA;&#x9;&#x9;destination, &#xA;&#x9;&#x9;client_order_id, &#xA;&#x9;&#x9;balance_due, &#xA;&#x9;&#x9;order_total, &#xA;&#x9;&#x9;expenses" Where="" />
+   <TableUsage DBName="vw_charter_order_list" Name="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="client_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="ClientId" PrimaryKey="false" SqlType="integer" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_fname" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ContactFname" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_lname" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ContactLname" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_company" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="ContactCompany" PrimaryKey="false" SqlType="integer" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="contact_company_name" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ContactCompanyName" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="quote_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="QuoteId" PrimaryKey="false" SqlType="integer" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="transport_company_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="TransportCompanyId" PrimaryKey="false" SqlType="integer" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="transport_company" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="TransportCompany" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="signage" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Signage" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="charter_party" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="CharterParty" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="depart_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DepartDate" PrimaryKey="false" SqlType="date" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="return_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="ReturnDate" PrimaryKey="false" SqlType="date" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="order_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="OrderId" PrimaryKey="false" SqlType="integer" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="status_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="StatusId" PrimaryKey="false" SqlType="integer" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="status" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Status" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="destination" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Destination" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="client_order_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ClientOrderId" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="balance_due" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="BalanceDue" PrimaryKey="false" SqlType="decimal" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="order_total" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="OrderTotal" PrimaryKey="false" SqlType="numeric" TableName="VwCharterOrderListTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="expenses" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="Expenses" PrimaryKey="false" SqlType="numeric" TableName="VwCharterOrderListTable" Updateable="true" />
+</DataSource>
+

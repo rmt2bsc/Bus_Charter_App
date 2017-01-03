@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="TransactionView">
+   <Sql From="transaction" GroupBy="" Having="" OrderBy="" Select="id, &#xA;&#x9;&#x9;order_id, &#xA;&#x9;&#x9;amount, &#xA;&#x9;&#x9;trans_date, &#xA;&#x9;&#x9;trans_type_id, &#xA;&#x9;&#x9;payment_type, &#xA;&#x9;&#x9;check_no, &#xA;&#x9;&#x9;notes, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;user_id" Where="" />
+   <TableUsage DBName="transaction" Name="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Id" PrimaryKey="true" SqlType="integer" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="order_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="OrderId" PrimaryKey="false" SqlType="integer" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="amount" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="Amount" PrimaryKey="false" SqlType="numeric" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="trans_date" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="TransDate" PrimaryKey="false" SqlType="date" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="trans_type_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="TransTypeId" PrimaryKey="false" SqlType="integer" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="payment_type" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="PaymentType" PrimaryKey="false" SqlType="integer" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="check_no" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="CheckNo" PrimaryKey="false" SqlType="varchar" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="notes" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Notes" PrimaryKey="false" SqlType="varchar" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="TransactionTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="UserId" PrimaryKey="false" SqlType="varchar" TableName="TransactionTable" Updateable="true" />
+</DataSource>
+

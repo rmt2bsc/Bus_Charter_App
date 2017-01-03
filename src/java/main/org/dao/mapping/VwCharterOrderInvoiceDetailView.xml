@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="VwCharterOrderInvoiceDetailView">
+   <Sql From="vw_charter_order_invoice_detail" GroupBy="" Having="" OrderBy="" Select="order_id, &#xA;&#x9;&#x9;unit_cost, &#xA;&#x9;&#x9;description, &#xA;&#x9;&#x9;client_order_id, &#xA;&#x9;&#x9;category, &#xA;&#x9;&#x9;bus_count, &#xA;&#x9;&#x9;seq, &#xA;&#x9;&#x9;total_cost" Where="" />
+   <TableUsage DBName="vw_charter_order_invoice_detail" Name="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="order_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="OrderId" PrimaryKey="false" SqlType="integer" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="unit_cost" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="UnitCost" PrimaryKey="false" SqlType="numeric" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="description" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Description" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="client_order_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ClientOrderId" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="category" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Category" PrimaryKey="false" SqlType="varchar" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="bus_count" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="BusCount" PrimaryKey="false" SqlType="numeric" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="seq" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Seq" PrimaryKey="false" SqlType="smallint" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="total_cost" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="TotalCost" PrimaryKey="false" SqlType="numeric" TableName="VwCharterOrderInvoiceDetailTable" Updateable="true" />
+</DataSource>
+

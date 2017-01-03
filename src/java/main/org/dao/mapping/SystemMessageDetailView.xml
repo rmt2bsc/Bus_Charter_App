@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="SystemMessageDetailView">
+   <Sql From="system_message_detail" GroupBy="" Having="" OrderBy="" Select="mesg_id, &#xA;&#x9;&#x9;mesg_type_id, &#xA;&#x9;&#x9;description, &#xA;&#x9;&#x9;button_id, &#xA;&#x9;&#x9;icon_id, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;change_reason, &#xA;&#x9;&#x9;active_ind, &#xA;&#x9;&#x9;areacode_created, &#xA;&#x9;&#x9;city_created, &#xA;&#x9;&#x9;user_id" Where="" />
+   <TableUsage DBName="system_message_detail" Name="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="mesg_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="MesgId" PrimaryKey="true" SqlType="integer" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="mesg_type_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="MesgTypeId" PrimaryKey="false" SqlType="integer" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="description" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Description" PrimaryKey="false" SqlType="varchar" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="button_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="ButtonId" PrimaryKey="false" SqlType="integer" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="icon_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="IconId" PrimaryKey="false" SqlType="integer" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="change_reason" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ChangeReason" PrimaryKey="false" SqlType="varchar" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="active_ind" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="ActiveInd" PrimaryKey="false" SqlType="char" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="areacode_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="AreacodeCreated" PrimaryKey="false" SqlType="char" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="city_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="CityCreated" PrimaryKey="false" SqlType="integer" TableName="SystemMessageDetailTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="UserId" PrimaryKey="false" SqlType="char" TableName="SystemMessageDetailTable" Updateable="true" />
+</DataSource>
+

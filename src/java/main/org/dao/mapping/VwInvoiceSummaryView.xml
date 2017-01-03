@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="VwInvoiceSummaryView">
+   <Sql From="vw_invoice_summary" GroupBy="" Having="" OrderBy="" Select="order_id, &#xA;&#x9;&#x9;trip_cost, &#xA;&#x9;&#x9;description, &#xA;&#x9;&#x9;client_order_id, &#xA;&#x9;&#x9;category, &#xA;&#x9;&#x9;bus_count, &#xA;&#x9;&#x9;seq, &#xA;&#x9;&#x9;total_cost" Where="" />
+   <TableUsage DBName="vw_invoice_summary" Name="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="order_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="OrderId" PrimaryKey="false" SqlType="integer" TableName="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="trip_cost" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="TripCost" PrimaryKey="false" SqlType="numeric" TableName="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="description" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Description" PrimaryKey="false" SqlType="varchar" TableName="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="client_order_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ClientOrderId" PrimaryKey="false" SqlType="varchar" TableName="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="category" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Category" PrimaryKey="false" SqlType="varchar" TableName="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="bus_count" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="BusCount" PrimaryKey="false" SqlType="numeric" TableName="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="seq" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="Seq" PrimaryKey="false" SqlType="smallint" TableName="VwInvoiceSummaryTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="total_cost" DataValue="" DisplayHeader="" IsNull="true" JavaType="double" Name="TotalCost" PrimaryKey="false" SqlType="numeric" TableName="VwInvoiceSummaryTable" Updateable="true" />
+</DataSource>
+

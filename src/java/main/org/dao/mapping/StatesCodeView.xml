@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource Name="StatesCodeView">
+   <Sql From="states_code" GroupBy="" Having="" OrderBy="" Select="state_id, &#xA;&#x9;&#x9;shortname, &#xA;&#x9;&#x9;longname, &#xA;&#x9;&#x9;state_capital, &#xA;&#x9;&#x9;country_id, &#xA;&#x9;&#x9;date_created, &#xA;&#x9;&#x9;date_updated, &#xA;&#x9;&#x9;change_reason, &#xA;&#x9;&#x9;areacode_created, &#xA;&#x9;&#x9;city_created, &#xA;&#x9;&#x9;user_id, &#xA;&#x9;&#x9;permanent" Where="" />
+   <TableUsage DBName="states_code" Name="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="state_id" DataValue="" DisplayHeader="" IsNull="false" JavaType="int" Name="StateId" PrimaryKey="true" SqlType="integer" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="shortname" DataValue="" DisplayHeader="" IsNull="false" JavaType="String" Name="Shortname" PrimaryKey="false" SqlType="varchar" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="longname" DataValue="" DisplayHeader="" IsNull="false" JavaType="String" Name="Longname" PrimaryKey="false" SqlType="varchar" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="state_capital" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="StateCapital" PrimaryKey="false" SqlType="integer" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="country_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="CountryId" PrimaryKey="false" SqlType="integer" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateCreated" PrimaryKey="false" SqlType="date" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="date_updated" DataValue="" DisplayHeader="" IsNull="true" JavaType="java.util.Date" Name="DateUpdated" PrimaryKey="false" SqlType="date" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="change_reason" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="ChangeReason" PrimaryKey="false" SqlType="varchar" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="areacode_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="AreacodeCreated" PrimaryKey="false" SqlType="char" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="city_created" DataValue="" DisplayHeader="" IsNull="true" JavaType="int" Name="CityCreated" PrimaryKey="false" SqlType="integer" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="user_id" DataValue="" DisplayHeader="" IsNull="true" JavaType="char" Name="UserId" PrimaryKey="false" SqlType="char" TableName="StatesCodeTable" Updateable="true" />
+   <ColAttr Computed="false" DBName="permanent" DataValue="" DisplayHeader="" IsNull="true" JavaType="String" Name="Permanent" PrimaryKey="false" SqlType="varchar" TableName="StatesCodeTable" Updateable="true" />
+</DataSource>
+
