@@ -4,18 +4,18 @@
 	<groupId>org.rmt2.buscharter</groupId>
 	<artifactId>bus-charter-app</artifactId>
 	<version>2.0-SNAPSHOT</version>
-	<name>Bus Charter Application</name>
+	<name>bus-charter-app</name>
 	<description>Contains GUI components and backend services to manage data for  bus charter organizaion.</description>
 	<dependencies>
 		<dependency>
-			<groupId>com.rmt2.framework.suite</groupId>
+			<groupId>org.rmt2.framework</groupId> 
 			<artifactId>fw-core</artifactId>
 			<version>1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.rmt2.framework.suite</groupId>
+			<groupId>org.rmt2.framework</groupId>
 			<artifactId>fw-swing</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
